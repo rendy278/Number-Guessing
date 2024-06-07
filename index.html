@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <form id="guessForm">
+            <h3>Write Your Guess: </h3>
+            <div>
+                <input type="number" id="userGuess" name="userGuess" required>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div id="result"></div>
+        <h4>Kesempatan mu dalam menebak angka hanya mendapatkan 3x kesempatan</h4>
+        <div id="guesses">Jumlah tebakan: 0</div>
+        <button id="retryButton" style="display:none;">Coba Lagi</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
